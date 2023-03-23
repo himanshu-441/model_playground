@@ -31,6 +31,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'main',                       #if an application requires database it must be added to installed apps
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
