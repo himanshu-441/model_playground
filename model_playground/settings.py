@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'main',                       #if an application requires database it must be added to installed apps
+    'relationship_playground',
 
     'django.contrib.admin',
     'django.contrib.auth',
