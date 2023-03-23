@@ -9,6 +9,7 @@ admin.site.register([
     models.Topping, 
     models.Person,
     models.Membership,
-    models.Society
+    models.Society,
+    models.Restaurant
 ]
 )

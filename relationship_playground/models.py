@@ -53,3 +53,9 @@ class Membership(models.Model):
     society_id = models.ForeignKey('Society', on_delete=models.CASCADE)
 
     designation = models.CharField(max_length=256)
+
+class Restaurant(models.Model):
+    name = models.CharField(max_length=15)
+
+    def __str__(self):
+        return self.name
